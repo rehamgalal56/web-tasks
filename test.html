@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <title>test page</title>
+    <style>
+      table,
+      td,
+      tr,
+      th {
+        border: 2px black solid;
+        border-collapse: collapse;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: gray;
+      }
+
+      li {
+        float: left;
+        margin-left: 3%;
+        margin-right: 3%;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li><a href="https://www.w3schools.com/" target="-blank">Home</a></li>
+      <li>
+        <a href="https://www.w3schools.com/html/default.asp" target="-blank"
+          >HTML</a
+        >
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/css/default.asp" target="-blank"
+          >CSS</a
+        >
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/js/default.asp" target="-blank"
+          >JavaScript</a
+        >
+      </li>
+    </ul>
+    <br />
+    <table style="width: 80%; margin: auto">
+      <tr>
+        <th></th>
+        <th>monday</th>
+        <th>tuseday</th>
+        <th>wendesday</th>
+        <th>thursday</th>
+        <th>friday</th>
+      </tr>
+      <tr>
+        <th>1:00 PM</th>
+        <th rowspan="2" style="background-color: rgb(226, 226, 132)">HTML</th>
+        <th></th>
+        <th rowspan="2" style="background-color: rgb(226, 226, 132)">HTML</th>
+        <th rowspan="8" style="background-color: rgb(212, 212, 23)">
+          HTML my apps
+        </th>
+        <th rowspan="2" style="background-color: rgb(226, 226, 132)">HTML</th>
+      </tr>
+      <tr>
+        <th>3:00 PM</th>
+
+        <th rowspan="2" style="background-color: gray">DeptMeeting</th>
+      </tr>
+      <tr>
+        <th>2:00 PM</th>
+        <th rowspan="3" style="background-color: rgb(88, 207, 88)">CSS</th>
+        <th rowspan="3" style="background-color: rgb(88, 207, 88)">CSS</th>
+        <th rowspan="3" style="background-color: rgb(88, 207, 88)">CSS</th>
+      </tr>
+      <tr>
+        <th>3:00 PM</th>
+        <th></th>
+      </tr>
+      <tr>
+        <th>5:00 PM</th>
+        <th rowspan="3" style="background-color: gray">EC Meeting</th>
+      </tr>
+      <tr>
+        <th>3:30 PM</th>
+        <th rowspan="3" style="background-color: rgb(84, 195, 230)">CSC205</th>
+        <th rowspan="3" style="background-color: rgb(84, 195, 230)">CSC205</th>
+        <th rowspan="3" style="background-color: rgb(84, 195, 230)">CSC205</th>
+      </tr>
+      <tr>
+        <th>3:30 PM</th>
+      </tr>
+      <tr>
+        <th>4:00 PM</th>
+        <th></th>
+      </tr>
+    </table>
+    <br />
+    <img src="images.png" usemap="#image-map" />
+
+    <map name="image-map">
+      <area
+        target="_blank"
+        alt="HTML"
+        title="HTML"
+        href="https://www.w3schools.com/html/default.asp"
+        coords="45,297,83,313,120,296,131,105,33,105"
+        shape="poly"
+      />
+      <area
+        target="_blank"
+        alt="CSS"
+        title="CSS"
+        href="https://www.w3schools.com/css/default.asp"
+        coords="174,297,211,316,249,297,260,103,160,103,163,114,163,115"
+        shape="poly"
+      />
+      <area
+        target="_blank"
+        alt="JavaScript"
+        title="JavaScript"
+        href="https://www.w3schools.com/js/default.asp"
+        coords="305,298,343,315,379,296,392,103,291,104"
+        shape="poly"
+      />
+    </map>
+  </body>
+</html>
